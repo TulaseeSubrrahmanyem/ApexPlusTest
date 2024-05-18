@@ -1,0 +1,63 @@
+{
+  "scenarios": [
+    {
+      "id": "1716006379977",
+      "name": "Test",
+      "time": "20",
+      "vehicles": [
+        {
+          "id": "1716006516167",
+          "name": "bicke",
+          "position": {
+            "x": "206",
+            "y": "100"
+          },
+          "direction": "Towards",
+          "speed": "2",
+          "scenarioId": "1716006379977"
+        },
+        {
+          "id": "1716006575498",
+          "name": "Van",
+          "position": {
+            "x": "600",
+            "y": "200"
+          },
+          "direction": "Upwards",
+          "speed": "4",
+          "scenarioId": "1716006379977"
+        }
+      ]
+    },
+    {
+      "id": "1716006451126",
+      "name": "Vehicals",
+      "time": "20",
+      "vehicles": [
+        {
+          "id": "1716017249346",
+          "name": "maha",
+          "position": {
+            "x": "789",
+            "y": "345"
+          },
+          "direction": "Backwards",
+          "speed": "2",
+          "scenarioId": "1716006451126"
+        }
+      ]
+    },
+    {
+      "id": "1716012848030",
+      "name": "newOne",
+      "time": "2",
+      "vehicles": []
+    },
+    {
+      "id": "1716013351403",
+      "name": "test4",
+      "time": "49",
+      "vehicles": []
+    }
+  ]
+}

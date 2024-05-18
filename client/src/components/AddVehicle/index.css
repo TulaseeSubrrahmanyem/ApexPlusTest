@@ -1,0 +1,122 @@
+.AddVehicle{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.formContainer1{
+    background-color: #353333;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   /* height: 100px; */
+}
+.formSubContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.form-group{
+    
+    width: 250px;
+    position: relative;
+}
+
+.formContainer1 input[type="text"],
+input[type="number"] {
+  width: 250px;
+  height: 45px;
+  padding: 10px;
+  border: 2px solid #4d4c4c;
+  background-color: #2b2a2a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+::placeholder{
+  color:#4d4c4c ;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 550;
+}
+/* Styles for error messages */
+/* .error-container{
+  position: absolute;
+    margin-top: 5px;
+    left: 8%;
+   
+    bottom: -30px; 
+    background-color: #a1312d;
+    text-align: center;
+    padding: 3px;
+    width: 200px;
+    margin: 0px auto;
+    height: 15px;
+} */
+/* .error {
+  margin: -1px;
+  color: #ffffff;
+  font-size: 11px;
+
+} */
+
+
+.error-container::after{
+  content: ""; /* Required for pseudo-elements */
+  position: absolute;
+  top: -10px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #a1312d;
+  
+}
+
+/* Styles for buttons */
+.btns-container{
+    margin-top: 30px;
+    /* display: flex;
+    flex-direction: row; */
+    
+  }
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Specific styles for each button based on its type */
+  button[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    width: 90px;
+    height: 38px;
+    margin-right: 10px;
+  }
+
+  button[type="reset"] {
+    background-color: #f0ad4e;
+    color: white;
+    width: 90px;
+    height: 38px;
+    margin: 10px;
+  }
+  
+ .backBtn {
+    background-color: #4989ff;
+    color: white;
+    margin: 10px;
+    height: 38px;
+    width: 100px;
+  }
+  
+  /* Hover effects for buttons */
+  button:hover {
+    opacity: 0.9;
+  }

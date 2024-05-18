@@ -1,0 +1,35 @@
+.sidebar {
+    width: 270px !important;
+    background-color: rgb(203, 203, 253);
+    min-height: 100vh;
+    max-height: 100%;
+    padding: 0px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    /* margin-top: 20px; */
+  }
+  
+  .sidebar li {
+    margin: 20px 0;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 550;
+    color: black; /* Default text color */
+    display: block; /* Makes the entire list item clickable */
+    padding: 15px 40px; /* Larger click area and spacing */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover and active states */
+  }
+  
+  .sidebar a:hover,
+  .sidebar a:active,
+  .sidebar a:focus {
+    color: rgb(25, 117, 255); /* Text color changes to blue on hover/active/focus */
+    background-color: #dcdcfa; /* Background color changes on hover/active/focus */
+  }
+  

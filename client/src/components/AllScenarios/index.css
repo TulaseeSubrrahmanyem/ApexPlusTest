@@ -1,0 +1,37 @@
+.AllScenarios{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.ScenarioBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ /* Specific styles for each button based on its type */
+ .Add-vehicle {
+    background-color: #5cb85c;
+    color: white;
+    /* width: 70px; */
+    height: 38px;
+    margin: 10px;
+  }
+
+  .delete-all {
+    background-color: #f0ad4e;
+    color: white;
+    /* width: 70px; */
+    height: 38px;
+    margin: 10px;
+  }
+  
+  #new-scenario {
+    background-color: #4989ff;
+    color: white;
+    margin: 10px;
+    height: 38px;
+    /* width: 70px; */
+  }
+  .AllScenariosBtnContainer{
+    margin-top: 10px;
+  }
