@@ -83,15 +83,14 @@ This is a React.js application that allows users to create, display, update, and
 
 The application can be deployed to any platform such as  Netlify and render for backend . Follow the platform-specific deployment instructions to deploy the application.
 
+This is the project link https://apextest.netlify.app/ with the actual URL of your GitHub repository. This way, users can easily access your repository to clone the project. Let me know if you need further assistance!
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
-Replace https://apextest.netlify.app/ with the actual URL of your GitHub repository. This way, users can easily access your repository to clone the project. Let me know if you need further assistance!
+
 
