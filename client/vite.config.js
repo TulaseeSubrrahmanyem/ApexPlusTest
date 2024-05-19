@@ -7,8 +7,9 @@ export default defineConfig({
   server: {
     port: 3000
   },
-  base: './', // or the correct path for your deployment
-  build: {
-    outDir: 'dist',
-  }
+  
 })
+// base: './', // or the correct path for your deployment
+//   build: {
+//     outDir: 'dist',
+//   }
