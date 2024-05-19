@@ -93,5 +93,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Replace `https://apextest.netlify.app/` with the actual URL of your GitHub repository. This way, users can easily access your repository to clone the project. Let me know if you need further assistance!
+Replace https://apextest.netlify.app/ with the actual URL of your GitHub repository. This way, users can easily access your repository to clone the project. Let me know if you need further assistance!
 
